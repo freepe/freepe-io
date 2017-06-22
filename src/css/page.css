@@ -1,0 +1,999 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, normal;
+}
+
+.page-background {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    min-height: 48vw;
+    max-width: 100%;
+    background-image: url('../images/reg1170.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.logo {
+    display: none;
+}
+
+.registr-background {
+    display: inline-block;
+    max-width:600px;
+    max-height: 500px;
+    height: 500px;
+    width: 309px;
+    background-image: url('../images/reg1170Fon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.rect {
+    display: inline-block;
+    max-width:600px;
+    max-height: 500px;
+    height: 500px;
+    width: 500px;
+    background: rgba(252,252,252,1);
+    position: fixed;
+}
+
+.reg {
+        margin: 17vh 21vw;
+    position: relative;
+    top: 0%;
+    left: -1%;
+    right: 10%;
+    bottom: 7%;
+    -webkit-transition: all .5s ease-in-out 0.5s;
+        -moz-transition: all .5s ease-in-out 0.5s;
+        -o-transition: all .5s ease-in-out 0.5s;
+        transition: all .5s ease-in-out 0.5s;
+        -ms-transition:all .5s ease-in-out 0.5s;
+}
+
+.rect .fo {
+    padding: 10px;
+}
+
+.rect h3 {
+    text-align: center;
+    color: #4062a7;
+}
+
+.rect form {
+    padding: 10px;
+    padding-top: 5px;
+}
+
+
+
+.form_input {
+    width:178px;
+    margin: 10px;
+    margin-top:5px;
+    margin-left: 18px;
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.rect form  input::focus{
+    border: 1px solid #8abeff;
+    outline: none;
+}
+
+ input[type=checkbox], label {
+    margin-top: 0px;
+    margin-top: 15px;
+}
+label {
+    margin-left: 22px; 
+    margin-bottom: 10px;
+    color: #686868;
+}
+
+#developer1 {
+    margin-left:142px;
+    margin-bottom: 10px;
+    color: #7b7b7b;
+}
+
+#developer2 {
+     margin-left:57px;
+     margin-bottom: 10px;
+     color: #7b7b7b;
+}
+
+#people {
+    margin-left:37px;
+    color: #7b7b7b;
+}
+
+#news {
+    margin-left: 26px;
+    color: #7b7b7b;
+}
+
+#paper {
+    margin-left: 84px;
+    color: #7b7b7b;
+}
+
+#gides {
+    margin-left: 142px;
+    color: #7b7b7b;
+}
+
+#vved {
+    margin-left:98px;
+    color: #7b7b7b;
+}
+
+#depos {
+    margin-left: 28px;
+}
+
+ul {
+    display: block-inline;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.icons {
+    position: relative;
+    top:10px;
+    display: inline-block;
+}
+
+.icons a {
+
+    padding: 7px;
+}
+
+.icons-mobile {
+    display: none;
+}
+
+#submit {
+    border:none;
+    height:50px;
+    width: 230px;
+    background-color: #4062a7;
+    margin-left: 10px;
+    margin-top:35px;
+    color: white;
+}
+
+
+
+/**/
+
+@media(max-width:1170px){
+    .page-background {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        min-height: 48vw;
+        max-width: 100%;
+        background-image: url('../images/reg1170.jpg');
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        -webkit-transition: all .5s ease-in-out 0.5s;
+        -moz-transition: all .5s ease-in-out 0.5s;
+        -o-transition: all .5s ease-in-out 0.5s;
+        transition: all .5s ease-in-out 0.5s;
+        -ms-transition:all .5s ease-in-out 0.5s;
+    }
+
+    .reg {
+        margin: 13vh 18vw;
+        position: relative;
+        top: 0%;
+        left: -2%;
+        right: 10%;
+        bottom: 7%;
+    }
+
+    .registr-background {
+        display: inline-block;
+        max-width: 600px;
+        max-height: 500px;
+        min-height: 55vh;
+        min-width: 24vw;
+        height: 441px;
+        background-image: url('../images/reg1170Fon.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .rect {
+        display: inline-block;
+        max-width: 600px;
+        max-height: 518px;
+        min-height: 422px;
+        min-width: 35vw;
+        width: 470px;
+        height: 440px;
+        background: rgba(252,252,252,1);
+        position: fixed;
+    }
+
+    .recr h3 {
+        text-align: center;
+        color: #4062a7;
+        font-size: 15px;
+    }
+
+    .rect .block {
+        font-size: 12px;
+    }
+
+    .form_input {
+        width: 168px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-left: 15px;
+        border: 1px solid #e6e6e6;
+        padding: 10px;
+        font-size: 11px;
+}
+
+    #submit {
+        border: none;
+        height: 40px;
+        width: 210px;
+        background-color: #4062a7;
+        margin-left: 10px;
+        margin-top: 17px;
+        color: white;
+        font-size: 12px;
+    }
+
+    #developer1 {
+    margin-left:121px;
+    margin-bottom: 10px;
+    color: #7b7b7b;
+    }
+
+    #developer1 {
+        margin-left:122px;
+        margin-bottom: 10px;
+        color: #7b7b7b;
+    }
+
+    #developer2 {
+        margin-left:58px;
+        margin-bottom: 10px;
+        color: #7b7b7b;
+    }
+
+    #people {
+        margin-left:38px;
+        color: #7b7b7b;
+    }
+
+    #news {
+        margin-left: 30px;
+        color: #7b7b7b;
+    }
+
+    #paper {
+        margin-left: 78px;
+        color: #7b7b7b;
+    }
+
+    #gides {
+        margin-left: 123px;
+        color: #7b7b7b;
+    }
+
+    #vved {
+        margin-left:89px;
+        color: #7b7b7b;
+    }
+
+    #depos {
+        margin-left: 36px;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .icons-mobile {
+        display: inline-block;
+        position: relative;
+        top:10px;
+        left:5px;
+    }
+
+    .icons-mobile a {
+        padding: 5px;
+    }
+}
+
+
+
+@media(max-width: 970px){
+    .page-background {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        min-height: 48vw;
+        max-width: 100%;
+        background-image: url('../images/reg970.jpg');
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        -webkit-transition: all .5s ease-in-out 0.5s;
+        -moz-transition: all .5s ease-in-out 0.5s;
+        -o-transition: all .5s ease-in-out 0.5s;
+        transition: all .5s ease-in-out 0.5s;
+        -ms-transition:all .5s ease-in-out 0.5s;
+    }
+
+    .reg {
+       margin: 13vh 21vw;
+    position: relative;
+    top: 0%;
+    left: -8%;
+    right: 10%;
+    bottom: 7%;
+
+    }
+
+    .rect .fo {
+    padding: 0px;
+}
+
+    .registr-background {
+           display: inline-block;
+    max-width: 600px;
+    max-height: 500px;
+    min-height: 50vh;
+    min-width: 20vw;
+    height: 440px;
+    width: 270px;
+    background-image: url('../images/reg1170Fon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+    .rect {
+            display: inline-block;
+    max-width: 600px;
+    max-height: 518px;
+    min-height: 422px;  
+    min-width: 35vw;
+    width: 436px;
+    height: 440px;
+    background: rgba(252,252,252,1);
+    position: fixed;
+    }
+
+    .recr h3 {
+        text-align: center;
+        color: #4062a7;
+        font-size: 15px;
+    }
+
+    .rect .block {
+        font-size: 12px;
+    }
+
+
+    .form_input {
+        width: 161px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-left: 15px;
+        border: 1px solid #e6e6e6;
+        padding: 10px;
+        font-size: 11px;
+}
+
+    #submit {
+        border: none;
+        height: 50px;
+        width: 210px;
+        background-color: #4062a7;
+        margin-left: 10px;
+        margin-top: 17px;
+        color: white;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+@media(max-width: 800px) {
+    .page-background {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        min-height: 48vw;
+        max-width: 100%;
+        background-image: url('../images/reg970.jpg');
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        -webkit-transition: all .5s ease-in-out 0.5s;
+        -moz-transition: all .5s ease-in-out 0.5s;
+        -o-transition: all .5s ease-in-out 0.5s;
+        transition: all .5s ease-in-out 0.5s;
+        -ms-transition:all .5s ease-in-out 0.5s;
+    }
+
+    .reg {
+       margin: 13vh 13vw;
+    position: relative;
+    top: 0%;
+    left: -8%;
+    right: 10%;
+    bottom: 7%;
+
+    }
+
+    .rect .fo {
+    padding: 0px;
+}
+
+    .registr-background {
+           display: inline-block;
+    max-width: 600px;
+    max-height: 500px;
+    min-height: 50vh;
+    min-width: 20vw;
+    height: 440px;
+    width: 270px;
+    background-image: url('../images/reg1170Fon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+    .rect {
+            display: inline-block;
+    max-width: 600px;
+    max-height: 518px;
+    min-height: 422px;
+    min-width: 35vw;
+    width: 436px;
+    height: 440px;
+    background: rgba(252,252,252,1);
+    position: fixed;
+    }
+
+    .recr h3 {
+        text-align: center;
+        color: #4062a7;
+        font-size: 15px;
+    }
+
+    .rect .block {
+        font-size: 12px;
+    }
+
+     .form_input {
+        width: 161px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-left: 15px;
+        border: 1px solid #e6e6e6;
+        padding: 10px;
+        font-size: 11px;
+}
+
+    #submit {
+        border: none;
+        height: 46px;
+        width: 180px;
+        background-color: #4062a7;
+        margin-left: 10px;
+        margin-top: 17px;
+        color: white;
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width:750px){
+    .page-background {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        min-height: 48vw;
+        max-width: 100%;
+        background-image: url('../images/reg750.jpg');
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        -webkit-transition: all .5s ease-in-out 0.5s;
+        -moz-transition: all .5s ease-in-out 0.5s;
+        -o-transition: all .5s ease-in-out 0.5s;
+        transition: all .5s ease-in-out 0.5s;
+        -ms-transition:all .5s ease-in-out 0.5s;
+    }
+
+    .reg {
+        margin: 13vh 11vw;
+        position: relative;
+        top: 0%;
+        left: -8%;
+        right: 10%;
+        bottom: 7%;
+
+    }
+
+    .rect .fo {
+    padding: 0px;
+}
+
+    .registr-background {
+        display: inline-block;
+    max-width: 600px;
+    max-height: 500px;
+    min-height: 50vh;
+    min-width: 20vw;
+    height: 440px;
+    width: 270px;
+    background-image: url('../images/reg1170Fon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+    .rect {
+        display: inline-block;
+    max-width: 600px;
+    max-height: 518px;
+    min-height: 422px;
+    min-width: 35vw;
+    width: 436px;
+    height: 440px;
+    background: rgba(252,252,252,1);
+    position: fixed;
+    }
+
+    .recr h3 {
+        text-align: center;
+        color: #4062a7;
+        font-size: 15px;
+    }
+
+    .rect .block {
+        font-size: 12px;
+    }
+
+
+    .form_input {
+    width: 161px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-left: 15px;
+        border: 1px solid #e6e6e6;
+        padding: 10px;
+        font-size: 11px;
+}
+
+    #submit {
+            border: none;
+    height: 30px;
+    width: 210px;
+    background-color: #4062a7;
+    margin-left: 10px;
+    margin-top: 17px;
+    color: white;
+    font-size: 12px;
+    }
+}
+
+@media(max-width: 700px) {
+    .registr-background {
+        display: none !important;
+    }
+}
+
+
+
+@media(max-width: 700px) {
+    .registr-background {
+        display: none;
+    }
+
+    .reg {
+        margin: 13vh 25vw;
+        position: relative;
+        top: 0%;
+        left: -8%;
+        right: 10%;
+        bottom: 7%;
+    }
+
+    .rect {
+    display: inline-block;
+    max-width: 600px;
+    max-height: 518px;
+    min-height: 422px;
+    min-width: 35vw;
+    width: 436px;
+    height: 440px;
+    background: rgba(252,252,252,1);
+    margin: 0 auto;
+    position: fixed;
+}
+}
+
+
+
+@media(max-width: 480px) {
+    .page-background {
+            min-height: 148vh;
+    right: 0;
+        bottom: 0;
+        top: 0;
+        background-image: url('../images/reg480.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-transition: all .5s ease-in-out 0.5s;
+        -moz-transition: all .5s ease-in-out 0.5s;
+        -o-transition: all .5s ease-in-out 0.5s;
+        transition: all .5s ease-in-out 0.5s;
+        -ms-transition:all .5s ease-in-out 0.5s;
+    }
+
+    .logo {
+        display: block;
+        width: 423px;
+        height: 14vh;
+        background-image: url('../images/logo320.png');
+        background-repeat: no-repeat;
+        position: relative;
+        top: -54px;
+        left: -7px;
+        margin-right: 15%;
+    }
+
+    .logo h3 {
+       color: #ffffff;
+        position: relative;
+        left: 49px;
+        top: 60px;
+        font-size: 27px;
+
+    }
+
+    
+    .rect .fo {
+        display: block;
+        padding: 10px;
+    }
+
+    .rect {
+        display: block;
+        max-height: 500px;
+        height: 500px;
+        width: 110vw;
+        background: transparent;
+        position: fixed;
+    }
+
+    .rect .block {
+        font-size: 12px;
+        margin-top: 12px;
+        position: relative;
+    }
+
+    .rect h3 {
+        color: #4062a7;
+        min-width: 10vw;
+        width: 70vw;
+        height: 1vh;
+        margin-top: 2vh;
+        margin-left: 0%;
+    }
+
+    .rect form {
+        padding: 10px;
+        padding-top: 5px;
+        margin-left: -15%;
+        margin-right: 3%;
+    }
+
+    .form_input {
+    width: 32%;
+        margin: 10px;
+        margin-top: 5px;
+        margin-left: 15px;
+        border: 1px solid #e6e6e6;
+        padding: 10px;
+        height: 8px;
+        font-size: 12px;
+}
+
+    input[type=checkbox], label {
+        margin-left: 8px;
+        margin-top: -3px;
+    }
+    label {
+        margin: 0px;
+        margin-left: 22px;
+        margin-bottom: 10px;
+        color: #686868;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    #developer1 {
+        margin-left: 130px;
+        margin-bottom: 4px;
+        color: #7b7b7b;
+        margin-top: 6px;
+    }
+
+    #developer2 {
+        margin-left:28px;
+        margin-bottom: 10px;
+        color: #7b7b7b;
+    }
+
+    #people {
+        margin-left:36px;
+        color: #7b7b7b;
+    }
+
+    #news {
+         margin-left: 25px;
+        color: #7b7b7b;
+        margin-top: 10px;
+
+    }
+
+    #paper {
+        margin-left: 51px;
+        color: #7b7b7b;
+    }
+
+    #depos {
+        margin-left: 8px;
+        color: #7b7b7b;
+    }
+
+    #gides {
+        margin-left: 129px;
+        color: #7b7b7b;
+        margin-top: 6px;
+    }
+
+    #vved {
+        margin-left:62px;
+        color: #7b7b7b;
+    }
+
+    .reg {
+        margin: 13vh 21vw;
+        position: relative;
+        top: 0%;
+        left: -8%;
+        right: 10%;
+        bottom: 7%;
+    }
+
+    #submit {
+        border: none;
+        height: 40px;
+        width: 34%;
+        background-color: #4062a7;
+        margin-left: 10px;
+        margin-top: 27px;
+        color: white;
+        font-size: 11px;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .icons-mobile {
+        display: inline-block;
+        position: relative;
+        top:10px;
+        left:5px;
+    }
+
+    .icons-mobile a {
+        padding: 5px;
+    }
+}
+
+
+@media(max-width:320px) {
+    .page-background {
+        min-height: 48vw;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background-image: url('../images/reg320.jpg');
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+        -webkit-transition: all .5s ease-in-out 0.5s;
+        -moz-transition: all .5s ease-in-out 0.5s;
+        -o-transition: all .5s ease-in-out 0.5s;
+        transition: all .5s ease-in-out 0.5s;
+        -ms-transition:all .5s ease-in-out 0.5s;
+    }
+
+    .logo {
+    display: none;
+}
+
+    .reg {
+        margin: 13vh 21vw;
+        position: relative;
+        top: 0%;
+        left: -8%;
+        right: 10%;
+        bottom: 7%;
+    }
+
+    .registr-background {
+        max-width: 600px;
+        max-height: 500px;
+        min-height: 50vh;
+        min-width: 20vw;
+        height: 440px;
+        width: 270px;
+        background-image: url('../images/reg1170Fon.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .rect .fo {
+        display: block;
+        padding: 10px;
+    }
+
+    .rect {
+        display: block;
+        max-width:600px;
+        max-height: 500px;
+        height: 500px;
+        width: 500px;
+        background: transparent;
+        position: fixed;
+    }
+
+    .rect h3 {
+        color: #4062a7;
+        min-width: 10vw;
+        width: 70vw;
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+
+    .rect form {
+        padding: 10px;
+        padding-top: 5px;
+        margin-left: -12%;
+    }
+
+    .form_input {
+        width: 21%;
+        margin: 10px;
+        margin-top: 5px;
+        margin-left: 15px;
+        border: 1px solid #e6e6e6;
+        padding: 10px;
+        height: 8px;
+        font-size: 11px;
+}
+
+    input[type=checkbox], label {
+        margin-left: 8px;
+        margin-top: -3px;
+    }
+    label {
+        display: block;
+        margin: 0px;
+        margin-left: 22px;
+        margin-bottom: 10px;
+        color: #686868;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    #depos {
+        margin-left: 8px;
+    }
+
+    #developer1 {
+        margin-left:22px;
+        margin-bottom: 10px;
+        color: #7b7b7b;
+    }
+
+    #developer2 {
+        margin-left:30px;
+        margin-bottom: 10px;
+        color: #7b7b7b;
+    }
+
+    #people {
+        margin-left:22px;
+        color: #7b7b7b;
+    }
+
+    #news {
+        margin-left: 22px;
+        color: #7b7b7b;
+    }
+
+    #paper {
+        margin-left: 51px;
+        color: #7b7b7b;
+    }
+
+    #gides {
+        margin-left: 22px;
+        color: #7b7b7b;
+    }
+
+    #vved {
+        margin-left:62px;
+        color: #7b7b7b;
+    }
+
+    #submit {
+        border: none;
+        height: 40px;
+        width: 31%;
+        background-color: #4062a7;
+        margin-left: 10px;
+        margin-top: 27px;
+        color: white;
+        font-size: 11px;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .icons-mobile {
+        display: inline-block;
+        position: relative;
+        top:10px;
+        left:5px;
+    }
+
+    .icons-mobile a {
+
+    padding: 5px;
+}
+
+}

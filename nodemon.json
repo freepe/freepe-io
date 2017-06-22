@@ -1,0 +1,9 @@
+{
+  "verbose": true,
+  "ignore": [
+  	"public/*",
+  	"src/*",
+  	"s_static/*",
+  	"properties.conf"
+  ]
+}

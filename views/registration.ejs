@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Registration FreePe</title>
+<meta http-equiv="cache-control" content="public">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<meta name="theme-color" content="#aabbcc">
+<meta name="msapplication-navbutton-color" content="#aabbcc">
+<meta name="apple-mobile-web-app-status-bar-style" content="#aabbcc">
+<link rel="shortcut icon" href="/img/favicon.png" id="favicon">
+
+<link rel="stylesheet" type="text/css" href="/css/page.css">
+<script src="https://cdn.rawgit.com/UABRO/domcom/master/source/domcom-min.js"></script>
+<script src="/js/socket.io.min.js"></script>
+<script src="/js/signup.js"></script>
+</head>
+<body>
+<script>
+(function(){
+	var ref_link='<%=ref_link%>';
+	if(ref_link.length != 17)return;
+	var Storage = localStorage;
+	if(!Storage.ref_link)Storage.ref_link = ref_link;
+}());
+</script>
+<div class="page-background"></div>
+<div class="app-container">
+<div class="loading-app">Loading...</div>
+<div class="router-menu"></div>
+<div class="router-name"></div>
+<div class="router-view"></div>
+</div>
+<div class="static center">
+	<img src="/img/logo-3.png" class="logo">
+	<h1>Sign up</h1>
+</div>-->
+<style>
+.static{
+	display: none;
+    margin: 20px auto;
+}
+h1{
+	font-size: 20px;
+	padding: 20px 5px;
+}
+.logoa{
+	border-radius: 37px;
+	display: inline-block;
+	font-size: 0;
+}
+.logo{
+	width: 300px;
+	height: 74px;
+	border-radius: 37px;
+    transition: .2s;
+}
+
+</style>
+<% include foot %>

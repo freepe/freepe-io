@@ -1,0 +1,710 @@
+.module-welcome {
+background-color: #e2e2e2;
+}
+
+.router-menu .header-slide-bar {
+display: none;
+position: absolute;
+}
+
+/*.menu {
+    display: block;
+}
+
+.router-view {
+    display: inline-block;
+    min-width: 100%;
+    vertical-align: top;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0;
+    margin-top: -24px;
+}   */
+
+.router-view{
+    display: none;
+}
+
+
+.page {
+background-image: url('../images/page.png');
+    width: 100%;
+    height: 887px;
+    background-size: cover;
+    opacity: 1;
+}
+
+/*.router-menu .header-slide-bar{
+    display: none;
+}*/
+
+.freepe {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0%;
+    display: block;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.freepe .freepe_block1 h1 {
+    font-size: 38pt;
+    margin: 0;
+    margin-bottom: 1%;
+    color: #ededed;
+    
+}
+
+.freepe .freepe_block1 p {
+    width: 57%;
+    font-size: 20pt;
+    text-align: center;
+    margin: 0 auto;
+    color: #eaedf2;
+}
+
+.freepe_block2 {
+    background-image: url('../images/line.png');
+    width: 100%;
+    text-align: center;
+    padding-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 3%;
+    margin-top: 1%;
+}
+
+.freepe_block2 p {
+color: #eaedf2;
+font-size: 17pt;
+    margin: 0;
+    margin-top: 2%;
+}
+
+.freepe_block2 a {
+    display: block;
+    margin-top: 2%;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 19pt;
+    color: #eaedf2;
+    background-color: #3262ad;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.freepe_block2 a img {
+    display: inline-block;
+}
+
+.freepe_block2 a {
+    display: block;
+    margin-top: 2%;
+    width: 23%;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 19pt;
+    color: #eaedf2;
+    background-color: #3262ad;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.pageDashBoard {
+    width: 100%;
+    min-height: 30vh;
+    background-color: #f4f4f4;
+}
+.pageDashBoard .DashBoard {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pageDashBoard .DashBoard h1 {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 20pt;
+    padding-bottom: 40px;
+    color: #3262ad;
+    font-weight: bold;
+}
+
+.pageDashBoard .DashBoard p {
+width: 44%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-bottom: 0%;
+    padding-bottom: 4%;
+    color: #7c7c7c;
+    font-size: 20px;
+}
+#str {
+        margin-bottom: 3%;
+}
+
+.pageFinanses {
+        width: 100%;
+    min-height: 30vh;
+    background-color: #ffffff;
+}
+
+.pageFinanses .finanses {
+        margin: 0 auto;
+    text-align: center;
+}
+
+.pageFinanses .finanses h1{
+        margin: 0;
+    padding-top: 50px;
+    font-size: 20pt;
+    padding-bottom: 40px;
+    color: #3262ad;
+    font-weight: bold;
+}
+
+.pageFinanses .finanses p {
+    width: 48%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-bottom: 0%;
+    padding-bottom: 4%;
+    font-size: 20px;
+    color: #7c7c7c;
+}
+
+.pageFinanses .finanses img {
+box-shadow: inset 18px 7px 27px 49px #e2e2e2;
+}
+
+.span {
+    color: #3262ad;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.pr {
+    width: 100%;
+    background-color: #f4f4f4;
+    height: 100px;
+    margin: 0;
+}
+
+#alterDash{
+    display: none;
+}
+#alterFin {
+    display: none;
+}
+
+@media(max-width:1550px) {
+    .page {
+    background-image: url('../images/page.png');
+    width: 100%;
+    height: 768px;
+    background-size: cover;
+    opacity: 1;
+}
+
+.freepe_block2 a {
+    display: block;
+    margin-top: 2%;
+    width: 35%;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 19pt;
+    color: #eaedf2;
+    background-color: #3262ad;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+}
+
+@media(max-width:1440px) {
+    .freepe .freepe_block1 h1 {
+    font-size: 30pt;
+    margin: 0;
+    margin-bottom: 1%;
+    color: #ededed;
+}
+
+.freepe .freepe_block1 p {
+    width: 57%;
+    font-size: 18pt;
+    text-align: center;
+    margin: 0 auto;
+    color: #eaedf2;
+}
+
+.pageDashBoard .DashBoard p {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-bottom: 0%;
+    padding-bottom: 4%;
+    color: #7c7c7c;
+    font-size: 20px;
+}
+
+.pageFinanses .finanses p {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-bottom: 0%;
+    padding-bottom: 4%;
+    font-size: 20px;
+    color: #7c7c7c;
+}
+}
+
+@media(max-width: 1024px) {
+    .pageFinanses .finanses img {
+    box-shadow: inset 18px 7px 27px 49px #e2e2e2;
+    width: 100%;
+}
+
+.pageDashBoard .DashBoard #img {
+        width: 80%;
+}
+.freepe_block2 a img {
+    display: inline-block;
+    width: 4%;
+}
+
+.page {
+    background-image: url('../images/page.png');
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+    opacity: 1;
+    margin-top: -4px;
+}
+
+.freepe .freepe_block1 h1 {
+    font-size: 23pt;
+    margin: 0;
+    margin-bottom: 1%;
+    color: #ededed;
+}
+
+.freepe .freepe_block1 p {
+    width: 57%;
+    font-size: 12pt;
+    text-align: center;
+    margin: 0 auto;
+    color: #eaedf2;
+}
+
+.freepe_block2 p {
+    color: #eaedf2;
+    font-size: 12pt;
+    margin: 0;
+    margin-top: 2%;
+}
+
+.freepe_block2 a {
+    display: block;
+    margin-top: 2%;
+    width: 40%;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17pt;
+    color: #eaedf2;
+    background-color: #3262ad;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pageDashBoard .DashBoard p {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-bottom: 0%;
+    padding-bottom: 4%;
+    color: #7c7c7c;
+    font-size: 17px;
+}
+
+.span {
+    color: #3262ad;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.pageFinanses .finanses p {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-bottom: 0%;
+    padding-bottom: 4%;
+    font-size: 16px;
+    color: #7c7c7c;
+}
+
+.pageFinanses .finanses img {
+    box-shadow: inset 18px 7px 27px 49px #e2e2e2;
+    width: 80%;
+}
+}
+
+@media(max-width:768px) {
+
+    .freepe .freepe_block1 h1 {
+    font-size: 19pt;
+    margin: 0;
+    margin-bottom: 1%;
+    color: #ededed;
+}
+
+.freepe .freepe_block1 p {
+    width: 70%;
+    font-size: 10pt;
+    text-align: center;
+    margin: 0 auto;
+    color: #eaedf2;
+}
+
+.freepe_block2 p {
+    color: #eaedf2;
+    font-size: 10pt;
+    margin: 0;
+    margin-top: 2%;
+}
+
+.freepe_block2 a img {
+    display: inline-block;
+    width: 5%;
+}
+
+.freepe_block2 a {
+    display: block;
+    margin-top: 2%;
+    width: 40%;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 12pt;
+    color: #eaedf2;
+    background-color: #3262ad;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.freepe_block2 a img {
+    display: inline-block;
+    width: 4%;
+}
+
+.page {
+    background-image: url('../images/page.png');
+    width: 100%;
+    height: 404px;
+    background-size: cover;
+    opacity: 1;
+    margin-top: -4px;
+}
+
+.pageDashBoard .DashBoard p {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-bottom: 0%;
+    padding-bottom: 4%;
+    color: #7c7c7c;
+    font-size: 12px;
+}
+.span {
+    font-size: 12px;
+}
+
+.pageFinanses .finanses p {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-bottom: 0%;
+    padding-bottom: 4%;
+    font-size: 12px;
+    color: #7c7c7c;
+}
+
+#str {
+    margin-bottom: 3%;
+    width: 3%;
+}
+
+.pageDashBoard .DashBoard h1 {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 16pt;
+    padding-bottom: 40px;
+    color: #3262ad;
+    font-weight: bold;
+}
+
+.pageFinanses .finanses h1 {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 16pt;
+    padding-bottom: 40px;
+    color: #3262ad;
+    font-weight: bold;
+}
+
+.pr {
+    width: 100%;
+    background-color: #f4f4f4;
+    height: 50px;
+    margin: 0;
+}
+}
+
+@media(max-width:480px) {
+.page {
+    background-image: url('../images/page480.png');
+    width: 100%;
+    height: 608px;
+    background-size: cover;
+    opacity: 1;
+    margin-top: -4px;
+}
+
+.freepe {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0%;
+    display: block;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.pageDashBoard .DashBoard #img {
+    width: 80%;
+    display: none;
+}
+.pageFinanses .finanses img {
+    box-shadow: inset 18px 7px 27px 49px #e2e2e2;
+    width: 80%;
+    display: none;
+}
+
+/*.app-authorized .router-view {
+    width: 90%;
+    margin-left: 0%;
+}*/
+
+.freepe .freepe_block1 h1 {
+    font-size: 17pt;
+    margin: 0;
+    margin-bottom: 1%;
+    color: #ededed;
+}
+
+.freepe .freepe_block1 p {
+    width: 80%;
+    font-size: 8pt;
+    text-align: center;
+    margin: 0 auto;
+    color: #eaedf2;
+}
+
+.freepe_block2 p {
+    color: #eaedf2;
+    font-size: 8pt;
+    margin: 0;
+    margin-top: 2%;
+}
+
+.freepe_block2 {
+    background-image: url('../images/line.png');
+    width: 100%;
+    text-align: center;
+    padding-top: 0px;
+    padding-top: 4%;
+    padding-bottom: 6%;
+    margin-top: 20%;
+}
+
+.freepe_block2 a {
+    display: block;
+    margin-top: 2%;
+    width: 70%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 13pt;
+    color: #eaedf2;
+    background-color: #3262ad;
+    padding-left: 0px;
+    padding-right: 0px;
+    vertical-align: top;
+}
+
+.freepe_block2 p {
+    color: #eaedf2;
+    font-size: 8pt;
+    margin: 0;
+    margin: 0 auto;
+    width: 47%;
+    margin-top: 2%;
+}
+
+#alterFin, #alterDash {
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.pageFinanses .finanses p {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding-top: 1%;
+    margin-bottom: 0%;
+    padding-bottom: 4%;
+    font-size: 12px;
+    color: black;
+}
+
+#str {
+    display: none;
+}
+.pageDashBoard .DashBoard p {
+    display: none;
+}
+
+}
+
+@media(max-width:425px) {
+    .freepe_block2 p {
+    color: #eaedf2;
+    font-size: 8pt;
+    margin: 0;
+    margin: 0 auto;
+    width: 53%;
+    margin-top: 2%;
+}
+
+.freepe_block2 a {
+    display: block;
+    margin-top: 2%;
+    width: 70%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 13pt;
+    color: #eaedf2;
+    background-color: #3262ad;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+}
+}
+
+@media(max-width:375px) {
+    .freepe_block2 a {
+    display: block;
+    margin-top: 2%;
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 13pt;
+    color: #eaedf2;
+    background-color: #3262ad;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+}
+}
+
+@media(max-width:320px){
+
+    .freepe .freepe_block1 h1 {
+    font-size: 15pt;
+    margin: 0;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    color: #ededed;
+}
+    .page {
+    background-image: url('../images/page480.png');
+    width: 100%;
+    height: 608px;
+    background-size: cover;
+    opacity: 1;
+    margin-top: -35px;
+}
+
+.freepe_block2 a {
+    display: block;
+    margin-top: 2%;
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 13pt;
+    color: #eaedf2;
+    background-color: #3262ad;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.pageDashBoard .DashBoard h1 {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 12pt;
+    padding-bottom: 40px;
+    color: #3262ad;
+    font-weight: bold;
+}
+
+.pageFinanses .finanses h1 {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 12pt;
+    padding-bottom: 40px;
+    color: #3262ad;
+    font-weight: bold;
+}
+}

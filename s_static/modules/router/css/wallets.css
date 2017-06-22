@@ -1,0 +1,26 @@
+.module-wallets{
+    padding: 20px;
+    background: rgba(255, 150, 55, 0.96);
+    word-break: break-word;
+}
+.module-wallets-block{
+    background: #f8f8f8;
+    padding: 10px;
+    margin: 10px;
+}
+.module-wallets-address{
+    padding: 1px 10px;
+    margin: 5px;
+    display: inline-block;
+    font-weight: bold;
+    background: white;
+    border: 1px solid silver;
+    border-radius: 30px;
+}
+.module-wallets-table *{
+    color: #66a;
+    text-align: center;
+}
+.module-wallets-table{
+    border-collapse: collapse;
+}

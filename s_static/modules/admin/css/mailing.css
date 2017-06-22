@@ -1,0 +1,10 @@
+.module-admin_mailing{
+	background: #ebb8eb;
+}
+.module-admin_mailing-iframe{
+	width: 100%;
+    height: 500px;
+    overflow: auto;
+    background: white;
+    border: 1px solid silver;
+}

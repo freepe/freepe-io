@@ -1,0 +1,635 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+	margin:0;
+	padding:0;
+    line-height: 1.5;
+    font-family: "Tahoma", normal, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.main {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.page-background    {
+	min-height: 1000px;
+	webkit-transform: translateZ(0);
+	transform:translateZ(0);
+	background-repeat: no-repeat;
+	max-width: 100%;
+	display: block ;
+	background-image: url("../images/land1170.jpg");
+    position: absolute;
+	background-size: cover;
+	background-position: center;
+	-webkit-transition: all .5s ease-in-out 0.5s;
+    -moz-transition: all .5s ease-in-out 0.5s;
+    -o-transition: all .5s ease-in-out 0.5s;
+    transition: all .5s ease-in-out 0.5s;
+    -ms-transition:all .5s ease-in-out 0.5s;
+}
+
+#alter {
+    display: none;
+}
+
+ .h3 {
+	padding: 0;
+    margin: 0;
+    padding-top: 4%;
+    padding-left: 5%;
+    font-size: 38px;
+    font-weight: normal;  
+    line-height: 110%;
+    font-family: "Tahoma", normal, sans-serif;
+}
+ .fix {
+	text-align: right;
+    padding-right: 9px;
+    background-color: #4063a7;
+    width: 10%;
+    position: relative;
+    top: 40%;
+    left: 5%;
+    display: block;
+    color: white !important;
+    transform: rotate(-45deg);
+    transform-origin: 339% 1812%;
+    min-width: 12vw;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -ms-transform-origin: 339% 1812%; /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 339% 1812%; /* Chrome, Safari, Opera */
+}
+
+.fix a{
+	color:white;
+	font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+.p {
+    padding-top: 0px;
+    padding-left: 7%;
+    font-size: 16px;
+    font-weight: normal;  
+    font-family: "Roboto", sans-serif;
+}
+
+.alternative {
+	display: none;
+}
+
+ .form {
+	padding-top: 0px;
+    padding-left: 8%;
+}
+
+#email {
+	width: 23%;
+    height: 28px;
+    font-size: 13px;
+    padding-left: 2%;
+    background-color: #ffffff;
+    opacity: 0.3;
+    border: none;
+}
+
+
+#submit {
+	margin-left:1%;
+	font-size: 12px;
+	padding: 0;
+	text-transform: capitalize;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: #4063a7;
+    height: 30px;
+    border: none;
+    color: white;
+}
+
+.form_inp {
+    display: block;
+    position: absolute;
+    top: 52%;
+}
+
+.form_inp input[type="email"] {
+
+}
+.form_inp input[type="password"] {
+    
+}
+.form_inp .b {
+        width: 82%;
+}
+
+::-webkit-input-placeholder {color:black !important;}
+::-moz-placeholder          {color:black !important;}/* Firefox 19+ */
+:-moz-placeholder           {color:black !important;}/* Firefox 18- */
+:-ms-input-placeholder      {color:black !important;}
+
+
+@media(max-width: 1170px){
+    
+    .page-background {
+        min-height: 77vw;
+        webkit-transform: translateZ(0);
+        transform:translateZ(0);
+        background-repeat: no-repeat;
+        max-width: 100%;
+        display: block;
+        background-image: url("../images/land1170.jpg");
+        background-size: cover;
+        background-position: center;
+        
+    }
+.fix {
+        text-align: right;
+        padding-right: 9px;
+        background-color: #4063a7;
+        width: 10%;
+        position: relative;
+        top: 40%;
+        left: 5%;
+        display: block;
+        color: white !important;
+        transform: rotate(-45deg);
+        transform-origin: 343% 1537%;
+        min-width: 13vw;
+        -ms-transform: rotate(-45deg); /* IE 9 */
+        -ms-transform-origin: 343% 1537%; /* IE 9 */
+        -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+        -webkit-transform-origin: 343% 1537%; /* Chrome, Safari, Opera */
+    }
+ .h3 {
+        padding: 0;
+        margin: 0;
+        padding-top: 3%;
+        padding-left: 5%;
+        font-size: 38px;
+        font-weight: normal;  
+        line-height: 110%;
+    }
+
+.app-welcome .p {
+        width:55%;
+        padding-top: 0px;
+        padding-left: 7%;
+        font-size: 16px;
+        font-weight: normal;  
+    }
+    
+ .form {
+        padding-top: 0px;
+        padding-left: 8%;
+    }
+
+    #email {
+        width: 30%;
+        height: 33px;
+        font-size: 14px;
+        padding-left: 2%;
+        background-color: #ffffff;
+        opacity: 0.3;
+        font-weight: bold;
+        color:black;
+        border: none;
+    }
+
+    #submit {
+        margin-left:2%;
+        font-size: 12px;
+        padding: 0;
+        text-transform: capitalize;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: #4063a7;
+        height: 30px;
+        border: none;
+        color: white;
+    }
+
+    .form_inp {
+    display: block;
+    position: absolute;
+    top: 52%;
+}
+
+.form_inp .input {
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid #4063a7;
+}
+.form_inp .b {
+    width: 60%;
+    transform: translate(0)
+}
+}
+
+@media(max-width: 970px) {
+    .page-background {
+        min-height: 103vh;
+        webkit-transform: translateZ(0);
+        transform:translateZ(0);
+        background-repeat: no-repeat;
+        max-width: 100%;
+        display: block;
+        background-image: url("../images/land970.jpg");
+        background-size: cover;
+        background-position: center;
+        
+    }
+ .fix {
+        text-align: right;
+        padding-right: 9px;
+        background-color: #4063a7;
+        width: 17%;
+        position: relative;
+        top: 40%;
+        left: 5%;
+        display: block;
+        color: white !important;
+        transform: rotate(-45deg);
+        transform-origin: 284% 1393%;
+        min-width: 16vw;
+        -ms-transform: rotate(-45deg); /* IE 9 */
+        -ms-transform-origin: 284% 1393%; /* IE 9 */
+        -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+        -webkit-transform-origin: 284% 1393%; /* Chrome, Safari, Opera */
+    }
+
+ .h3 {
+        padding: 0;
+        margin: 0;
+        padding-top: 0%;
+        padding-left: 6%;
+        font-size: 29px;
+        font-weight: normal;  
+    }
+
+ .app-welcome  .p {
+        width: 51%;
+        padding-top: 0px;
+        padding-left: 8%;
+        font-size: 12px;
+        font-weight: normal;  
+    }
+    
+ .form {
+        padding-top: 0px;
+        padding-left: 9%
+    }
+
+    #email {
+        width: 27%;
+        height: 25px;
+        font-size: 13px;
+        padding-left: 2%;
+        background-color: #ffffff;
+        opacity: 0.3;
+    }
+
+    #submit {
+        margin-left: 1%;
+        font-size: 10px;
+        padding: 0;
+        text-transform: capitalize;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: #4063a7;
+        height: 30px;
+        border: none;
+        color: white;
+    }
+
+        .form_inp {
+    display: block;
+    position: absolute;
+    top: 52%;
+}
+
+.form_inp .input {
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid #4063a7;
+    font-size: 15px;
+}
+.form_inp .b {
+    width: 49%;
+    transform: translate(0);
+}
+}
+
+@media(max-width: 750px) {
+
+    .page-background {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top:0;
+        right: 0;
+        min-height: 100vh;
+        webkit-transform: translateZ(0);
+        transform:translateZ(0);
+        background-repeat: no-repeat;
+        display: block;
+        background-image: url("../images/land750L.jpg");
+        background-size: cover;
+        background-position: center;
+        
+        min-width: 100vh;
+    }
+
+ .h3 {
+        padding: 0;
+        margin: 0;
+        padding-top: 2%;
+        padding-left: 3%;
+        font-size: 25px;
+        font-weight: normal;  
+    }
+.fix {
+        text-align: right;
+        padding-right: 9px;
+        background-color: #4063a7;
+        width: 22%;
+        position: relative;
+        top: 40%;
+        left: 5%;
+        display: block;
+        color: white !important;
+        transform: rotate(-45deg);
+        transform-origin: 254% 1573%;
+        min-width: 21vw;
+        -ms-transform: rotate(-45deg); /* IE 9 */
+        -ms-transform-origin: 254% 1573%; /* IE 9 */
+        -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+        -webkit-transform-origin: 254% 1573%; /* Chrome, Safari, Opera */
+    }
+
+    .fix a{
+        color:white;
+        font-size: 12px;    
+    }
+
+ .app-welcome  .p {
+        width: 57%;
+        padding-top: 0px;
+        padding-left: 5%;
+        font-size: 11px;
+        font-weight: normal;  
+    }
+    
+ .form {
+        padding-top: 0px;
+        padding-left: 8%;
+    }
+
+    #email {
+        width: 27%;
+        height: 25px;
+        padding-left: 2%;
+        background-color: #ffffff;
+        opacity: 0.3;
+    }
+
+    #submit {
+        margin-left: 1%;
+        font-size: 10px;
+        padding: 0;
+        text-transform: capitalize;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: #4063a7;
+        height: 33px;
+    }
+
+.form_inp {
+    display: block;
+    position: absolute;
+    top: 49%;
+}
+
+.form_inp .input {
+    width: 45%;
+    border: none;
+    border-bottom: 1px solid #4063a7;
+    font-size: 13px;
+}
+.form_inp .b {
+    width: 44%;
+    transform: translate(0);
+}
+}
+
+@media (max-width: 700px) {
+ .fix {
+        visibility: hidden;
+}
+
+}
+
+@media(max-width: 480px) {
+
+    .page-background {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        top:0;
+        right: 0;
+        min-height: 385vw;
+        webkit-transform: translateZ(0);
+        transform:translateZ(0);
+        background-repeat: no-repeat;
+        max-width: 100%;
+        display: block;
+        background-image: url("../images/land320_F.jpg");
+        background-size: cover;
+        background-position: center;
+        
+        min-width: 0;
+    }
+
+    #alter {
+        display: block;
+        padding-left: 4%;
+        font-size: 16px;
+        color: #dee1d1;
+        text-decoration: none;
+    }
+    
+ .h3 {
+        padding: 0;
+        margin: 0;
+        padding-top: 4%;
+        padding-left: 4%;
+        font-size: 27px;
+        font-weight: normal; 
+    }
+
+ .app-welcome  .p {
+        display: none;  
+    }           
+
+.alternative {
+        display: block;
+        width: 96%;
+        padding-top: 0px;
+        padding-left: 4%;
+        font-size: 13px;
+        font-weight: normal;
+    }
+ .form {
+        padding-top: 0px;
+        padding-left: 4%;
+    }
+
+    #email {
+        width: 94%;
+        text-align: center;
+        height: 35px;
+        background-color: #ffffff;
+        opacity: 0.3;
+    }
+
+    #submit {
+        margin-left: 0;
+        font-size: 13px;
+        padding: 0;
+        text-transform: capitalize;
+        padding-left: 0%;
+        padding-right: 0%;
+        background-color: #4063a7;
+        height: 33px;
+        width: 96%;
+        border: none;
+        color: white;
+        margin-top: 4%;
+        font-weight: bold;
+    }
+
+.form_inp {
+    display: block;
+    position: absolute;
+    top: 9%;
+    text-align: center;
+    width: 100%;
+}
+
+.form_inp .input {
+    width: 55%;
+    border: none;
+    border-bottom: 1px solid #4063a7;
+    font-size: 15px;
+}
+
+.h3_alter {
+    padding: 0;
+    margin: 0;
+    padding-top: 38%;
+    padding-left: 4%;
+    font-size: 27px;
+    font-weight: normal;
+}
+
+.form_inp .b {
+    width: 55%;
+    transform: translate(0);
+}
+} 
+
+@media(max-width: 320px) {
+
+    .page-background {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        top:0;
+        right: 0;
+        min-height: 385vw;
+        webkit-transform: translateZ(0);
+        transform:translateZ(0);
+        background-repeat: no-repeat;
+        max-width: 100%;
+        display: block;
+        background-image: url("../images/land320_F.jpg");
+        background-size: cover;
+        background-position: center;
+        
+        min-width: 0;
+    }
+    .h3_alter {
+    padding: 0;
+    margin: 0;
+    padding-top: 38% !important;
+    padding-left: 4%;
+    font-size: 27px;
+    font-weight: normal;
+}
+
+    #alter {
+        display: block;
+        padding-left: 4%;
+        font-size: 16px;
+        color: #dee1d1;
+    }
+    
+ .h3 {
+        padding: 0;
+        margin: 0;
+        padding-top: 4%;
+        padding-left: 4%;
+        font-size: 20px;
+        font-weight: normal; 
+        color:#3c3b37; 
+    }
+
+ .app-welcome  .p {
+        display: none;  
+    }
+
+.alternative {
+        display: block;
+        width: 96%;
+        padding-top: 0px;
+        padding-left: 4%;
+        font-size: 13px;
+        font-weight: normal;
+    }
+    
+ .form {
+        padding-top: 0px;
+        padding-left: 4%;
+    }
+
+    #email {
+        width: 94%;
+        text-align: center;
+        height: 35px;
+        background-color: #ffffff;
+        opacity: 0.3;
+    }
+
+
+    #submit {
+        margin-left: 0;
+        font-size: 13px;
+        padding: 0;
+        text-transform: capitalize;
+        padding-left: 0%;
+        padding-right: 0%;
+        background-color: #4063a7;
+        height: 33px;
+        border: none;
+        color: white;
+    }
+}

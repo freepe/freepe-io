@@ -1,0 +1,83 @@
+<link rel="stylesheet" type="text/css" href="/modules/css/index.css">
+<script src="https://rawgit.com/UABRO/domcom/master/source/domcom-min.js"></script>
+<script>
+global_ret_id='<%=id%>';
+var uapay = function(obj,url,cbfail,cbok){
+	obj = JSON.stringify(obj);
+	var xhr = new XMLHttpRequest();
+	url = 'http://api.demo.uapay.ua/' + url;
+	xhr.open('POST', url, true);
+	xhr.setRequestHeader('Content-Type', 'application/json');
+	xhr.onload = function () {
+		if(xhr.responseText){
+			try{
+				var res = JSON.parse(xhr.responseText);
+				if(res.error){
+					cbfail(res.error);
+				}else{
+					cbok(res);
+				}
+			}catch(err){
+				cbfail(err);
+			}
+		}else{
+			cbfail({error:'not valid xhr response'});
+		}
+	};
+	xhr.send(obj);
+}
+
+var postform = function(obj,url,cbfail,cbok){
+	obj = JSON.stringify(obj);
+	var xhr = new XMLHttpRequest();
+	xhr.open('POST', url, true);
+	xhr.setRequestHeader('Content-Type', 'application/json');
+	xhr.onload = function () {
+		if(xhr.responseText){
+			try{
+				var res = JSON.parse(xhr.responseText);
+				if(res.error){
+					cbfail(res.error);
+				}else{
+					cbok(res);
+				}
+			}catch(err){
+				cbfail(err);
+			}
+		}else{
+			cbfail({error:'not valid xhr response'});
+		}
+	};
+	xhr.send(obj);
+}
+
+
+DC.ready(function(){
+///////////////
+
+var bodytag = document.body;
+
+DC.load.config({
+	src: '/modules/'
+});
+
+DC.load({
+    name: 'uapay',
+    css: 1,
+    data: {
+        // foo: 'bar'// pass any data you want to module
+    },
+    ready(dc,api){
+        dc.insertIn(bodytag);
+    },
+})
+
+///////////////
+});
+
+// моб С - 380680059286
+// 5168001030427681
+// моб Б - 380937658569
+// 4149437863480842
+
+</script>

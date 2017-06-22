@@ -1,0 +1,149 @@
+*{
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+.page-background{
+    background-color: #eaeaea;
+	background-image: url(https://pp.vk.me/c630525/v630525424/41e52/gEDKhiCm1qA.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	transform: translateZ(0);
+	pointer-events: none;
+	z-index: -1 !important;
+}
+.b{
+	padding: 4px 10px;
+	margin: 10px;
+	background: #4062a7;
+    color: #fffcf5;
+	border: 0;
+	cursor: pointer;
+	box-shadow: 0 2px 4px rgba(0,0,0,.3);
+	transition: .2s;
+	font-weight: bold;
+}
+.b:focus{
+	outline: none;
+}
+.b:hover{
+	box-shadow: 0 4px 4px rgba(0,0,0,.3);
+	transform: translateY(-2px);
+}
+.b:active{
+	box-shadow: none;
+	transform: none;
+}
+.log{
+	padding: 10px;
+	background: silver;
+	margin: 10px;
+}
+.move{
+	position: fixed;
+	left: 100px;
+	top: 100px;
+    background: rgba(0, 0, 0, 0.35);
+    border: 5px solid rgba(0, 0, 0, 0.4);
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	cursor: move;
+}
+.input{
+	border: 1px solid #dddddd;
+	padding: 3px 9px;
+	margin: 10px;
+	transition: .2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+.input:focus{
+	outline: none;
+    box-shadow: none;
+    // box-shadow: 0 0 3px #0098ff;
+    border-color: #0098ff;
+}
+.router-menu{
+	font-size: 0;
+}
+.router-name{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.menua{
+	display: inline-block;
+	margin: 5px;
+	padding: 5px 10px;
+	background: white;
+    width: 20%;
+    color: #2d79d8;
+	cursor: pointer;
+	transition: .2s;
+}
+.menua:hover{
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+.menua.active{
+	background: #2964ae;
+    color: white;
+    border-color: #143359;
+}
+.green,.red{
+	padding: 5px;
+	font-weight: bold;
+	color: green;
+}
+.red{
+	color: red;
+}
+.sign-out{
+	background: #333;
+	color: white;
+}
+.notify-div{
+	height: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.78);
+    transition: .2s;
+}
+.notify-div>div{
+    padding: 15px 10px 45px;
+    color: white;
+}
+.socket-status{
+	position: fixed;
+    top: 0;
+    right: 0;
+    background: white;
+    border: 1px dashed silver;
+    border-top: 0;
+    border-right: 0;
+    border-bottom-left-radius: 5px;
+    z-index: 100;
+}
+.app-loading{
+    max-width: 800px;
+    margin: 60px auto;
+    background: rgba(252, 252, 252, 0.9);
+    box-shadow: 0 3px 15px rgba(0,0,0,.2);
+    padding: 10px;
+}
+.center{
+	text-align: center;
+}
+.hr{
+	height: 1px;
+	background: #dadada;
+}

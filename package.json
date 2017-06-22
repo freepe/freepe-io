@@ -1,0 +1,32 @@
+{
+  "name": "FreePe.IO",
+  "version": "0.0.1a",
+  "main": "index.js",
+  "author": "Oleksii Shnyra",
+  "contributors": [
+    "Sergej Krivtsov  <krivtsovpro@gmail.com>",
+    "Bogdan <lazbog@tuta.io>"
+  ],
+  "scripts": {
+    "devmin": "supervisor -w src/js -i public --no-restart-on exit requires/minify_cli",
+    "start": "node start.js",
+    "demon": "nodemon index.js",
+    "nohup": "nohup npm start > /dev/null &"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "body-parser": "^1.15.2",
+    "colu": "^0.10.26",
+    "compression": "^1.6.2",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "nodemailer": "^2.5.0",
+    "orientjs": "^2.2.2",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "node-minify": "^1.3.9"
+  }
+}

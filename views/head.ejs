@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FreePe</title>
+<meta http-equiv="cache-control" content="public">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<meta name="theme-color" content="#aabbcc">
+<meta name="msapplication-navbutton-color" content="#aabbcc">
+<meta name="apple-mobile-web-app-status-bar-style" content="#aabbcc">
+<link rel="shortcut icon" href="/favicon.ico" id="favicon">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/landing.css">
+<link rel="stylesheet" href="/css/dashboard.css">
+<link rel="stylesheet" href="/css/welcome.css">
+<link rel="stylesheet/less" href="/css/headerSlide.less">
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
+<script src="https://rawgit.com/UABRO/domcom/master/source/domcom-min.js"></script>
+<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>
+<!-- <script src="/js/dc.js"></script> -->
+<script src="/js/socket.io.min.js"></script>
+
+<script src="/js/<%= typeof local!='undefined'&&local?'dev.js':'mn.js'; %>"></script>
+
+</head>
+<body>

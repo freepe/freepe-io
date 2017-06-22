@@ -1,0 +1,25 @@
+.tempapp{
+    position: absolute;
+    z-index: 50;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    background: white;
+    padding: 5px 0;
+    border-bottom: 15px solid #9d3939;
+}
+.tempmenu{
+    background: #55e;
+    padding: 5px;
+}
+.tempmenu_item{
+    padding: 3px;
+    margin: 3px;
+    background: #ea5;
+    color: white;
+}
+.tempview{
+    border: 2px solid green;
+    margin: 10px;
+    padding: 10px;
+}
